@@ -6,6 +6,3 @@ mock
 
 # doc
 sphinx>=1.6.2
-
-# releasenotes
-reno>=1.8.0
