@@ -14,7 +14,6 @@ template is for generic use and is not OpenStack specific.
 * hacking_: Enforces the OpenStack Hacking Guidelines
 * pytest_: Supports unittest, pytest, nose style tests and more
 * Tox_ testing: Setup to easily test for Python 2.7, 3.5, 3.6
-* Sphinx_ docs: Documentation ready for generation and publication
 
 Usage
 -----
@@ -29,7 +28,6 @@ Generate a Python package project::
 
 .. _pbr: http://docs.openstack.org/developer/pbr
 .. _Tox: http://testrun.org/tox/
-.. _Sphinx: http://sphinx-doc.org/
 .. _hacking: https://git.openstack.org/cgit/openstack-dev/hacking/plain/HACKING.rst
 .. _pytest: http://pytest.org/
 .. _openstack-dev/cookiecutter: https://github.com/openstack-dev/cookiecutter
