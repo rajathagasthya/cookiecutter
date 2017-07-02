@@ -11,6 +11,7 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
+import importlib
 import os
 import sys
 
@@ -23,7 +24,7 @@ cwd = os.getcwd()
 parent = os.path.dirname(cwd)
 sys.path.insert(0, parent)
 
-import {{ cookiecutter.module_name }}
+importlib.import_module('{{ cookiecutter.module_name }}')
 
 # -- General configuration -----------------------------------------------------
 
